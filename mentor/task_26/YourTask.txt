@@ -1,0 +1,31 @@
+Ваша задача:
+
+Узнайте для чего используют библиотеку Lombok.
+(https://www.baeldung.com/intro-to-project-lombok)
+
+Добавьте в проект библиотеку Lombok.
+
+	compileOnly('org.projectlombok:lombok:1.18.32')
+	annotationProcessor('org.projectlombok:lombok:1.18.32')
+
+	testCompileOnly('org.projectlombok:lombok:1.18.32')
+	testAnnotationProcessor('org.projectlombok:lombok:1.18.32')
+
+В IntelliJIdea File -> Settings -> "Enable annotation processing"
+поставить галочку!
+
+Примените Lombok для генерации get/set методов и конструкторов
+для классов запроса и ответа:
+
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
+
+Прочитайте и поэкспериментируйте
+с Lombok аннотациями описанными в статье:
+https://habr.com/ru/articles/812101/
+
+PS: не забудьте по окончанию выполнения шага создать и заполнить
+файл /documentation/Step_X_description.txt. Формат заполнения этого
+файла описан в step_1 в файле Learning_reflection.txt.

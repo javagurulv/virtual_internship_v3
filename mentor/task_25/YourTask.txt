@@ -1,0 +1,29 @@
+Попробуйте применить подход описанный ниже для создания мок объектов
+и внедрения их в качестве зависимостей.
+
+JUnit - это библиотека, которая управляет запуском юнит тестов.
+Ее поведение можно расширять, что и сделано с помощью
+@ExtendWith(MockitoExtension.class). Узнайте, что эта штука делает
+под капотом. Так же узнайте что такое аннотации @Mock и @InjectMocks.
+
+
+@ExtendWith(MockitoExtension.class)
+class TravelCalculatePremiumServiceImplTest {
+
+    @Mock private DateTimeService dateTimeService;
+
+    @InjectMocks
+    private TravelCalculatePremiumServiceImpl service;
+
+    private TravelCalculatePremiumRequest request;
+
+    @BeforeEach
+    public void setUp() {
+        request = createRequestWithAllFields();
+        when(dateTimeService.getDaysBetween(request.getAgreementDateFrom(), request.getAgreementDateTo())).thenReturn(0L);
+    }
+
+
+PS: не забудьте по окончанию выполнения шага создать и заполнить
+файл /documentation/Step_X_description.txt. Формат заполнения этого
+файла описан в step_1 в файле Learning_reflection.txt.

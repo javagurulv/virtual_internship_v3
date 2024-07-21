@@ -1,0 +1,7 @@
+Ваша задача: написать тесты к классу
+TravelCalculatePremiumRequestValidator,
+найти в нём ошибку и исправить ее.
+
+PS: не забудьте по окончанию выполнения шага создать и заполнить
+файл /documentation/Step_X_description.txt. Формат заполнения этого
+файла описан в step_1 в файле Learning_reflection.txt.

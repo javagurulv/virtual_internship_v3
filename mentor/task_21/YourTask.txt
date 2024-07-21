@@ -1,0 +1,41 @@
+Для того чтобы воспользоваться классом DateTimeService в классе
+TravelCalculatePremiumServiceImpl "повесьте" на новый класс
+аннотацию @Component (по аналогии с TravelCalculatePremiumServiceImpl).
+
+Spring аннотация @Component это часть реализации Inversion of Control
+(IoC) или Dependency Injection дизайн паттерна. Это один из ключевых
+дизайн паттернов применяемых для построения больших приложений. Он
+позволяет как бы "склеивать" все объекты из которых состоит приложение
+во время выполнения программы. Дополнительно изучите информацию
+про основы IoC в Spring.
+
+Для того чтобы воспользоваться новым классом в
+TravelCalculatePremiumServiceImpl просто создайте конструктор
+принимающий его в качестве параметра и сохраняющего в свойство класса.
+(private DateTimeService dateTimeService;)
+
+Такой способ получения внешней зависимости называется:
+constructor dependency injection.
+
+Далее замените код расчета количества дней между датами
+на вызов метода из класса DateTimeService
+(например dateTimeService.getDaysBetween(...).
+
+Старый код расчёта количества дней между датами в классе
+TravelCalculatePremiumServiceImpl больше не используется, удалите его.
+
+После внесённых изменений не забудьте поправить тест
+класса TravelCalculatePremiumServiceImpl так, чтобы он
+компилировался и работал.
+
+Совет: запомните этот прием (вынесение алгоритма в отдельный класс).
+Это очень действенный прием, который широко используется в разработке
+программного обеспечения. Используйте его и вы!
+
+Books about Dependency Injection (Inversion of Control - IoC)
+(в интернете можно найти pdf):
+1. https://www.amazon.com/Dependency-Injection-Examples-Java-Ruby/dp/193398855X
+
+PS: не забудьте по окончанию выполнения шага создать и заполнить
+файл /documentation/Step_X_description.txt. Формат заполнения этого
+файла описан в step_1 в файле Learning_reflection.txt.

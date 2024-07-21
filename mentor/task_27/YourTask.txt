@@ -1,0 +1,21 @@
+Ваша задача:
+
+Примените Lombok для генерации конструктора
+в классах
+- TravelCalculatePremiumServiceImpl
+- TravelCalculatePremiumController
+без модификатора доступа.
+
+Для этого воспользуйтесь
+следующей аннотацией из Lombok библиотеки:
+
+@RequiredArgsConstructor(access = AccessLevel.PACKAGE)
+
+
+Прочитайте документ:
+Oliver Drotbohm - Why field injection is evil.pdf
+
+
+PS: не забудьте по окончанию выполнения шага создать и заполнить
+файл /documentation/Step_X_description.txt. Формат заполнения этого
+файла описан в step_1 в файле Learning_reflection.txt.
