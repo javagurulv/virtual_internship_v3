@@ -1,0 +1,71 @@
+The pyramid representing all knowledge
+
+Any individual can partition all their knowledge into three
+sections: stuff you know, stuff you know you don’t know, and stuff you don’t know you
+don’t know.
+
+Stuff you know includes the technologies, frameworks, languages, and tools a
+technologist uses on a daily basis to perform their job, such as knowing Java
+as a Java programmer. Stuff you know you don’t know includes those things a technologist knows a
+little about or has heard of but has little or no expertise in. A good example of this
+level of knowledge is the Clojure programming language. Most technologists have
+heard of Clojure and know it’s a programming language based on Lisp, but they can’t
+code in the language. Stuff you don’t know you don’t know is the largest part of the
+knowledge triangle and includes the entire host of technologies, tools, frameworks,
+and languages that would be the perfect solution to a problem a technologist is trying
+to solve, but the technologist doesn’t even know those things exist.
+
+
+Stuff you must maintain
+Developers must maintain expertise to retain it.
+
+
+Technical breadth (illustrated by all knowledge pyramid).
+
+As an architect, breadth is more important than depth. Because architects must make
+decisions that match capabilities to technical constraints, a broad understanding of a
+wide variety of solutions is valuable. Thus, for an architect, the wise course of action
+is to sacrifice some hard-won expertise and use that time to broaden their portfolio.
+
+
+Frozen Caveman Anti-Pattern
+
+
+Thinking like an architect is all about seeing trade-offs in every solution, technical or
+otherwise, and analyzing those trade-offs to determine what is the best solution. To
+quote Mark (one of your authors):
+Architecture is the stuff you can’t Google.
+
+
+There are no right or wrong answers in architecture—only trade-offs.
+
+
+Programmers know the benefits of everything
+and the trade-offs of nothing. Architects need to understand both.
+
+
+Unit test your Java architecture
+Start enforcing your architecture within 30 minutes
+using the test setup you already have.
+https://www.archunit.org/
+
+
+
+Building Evolutionary Architectures
+https://evolutionaryarchitecture.com/
+
+
+Hot to gain constant hands-on experience:
+- doing proof-of-concept (POC);
+- tackle some of the technical debt stories or architecture stories;
+- working on bug fixes;
+- do frequent code reviews.
+
+
+Modularity
+
+95% of the words [about software architecture] are spent extolling
+the benefits of “modularity” and that little, if anything,
+is said about how to achieve it.
+—Glenford J. Myers (1978)
+
