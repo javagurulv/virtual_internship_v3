@@ -1,3 +1,20 @@
-LESSON 2: https://www.youtube.com/watch?v=GF6DxFrVACY
+LESSON 1:
+Rumble: https://rumble.com/v5cy5qz--java-lecture-1.html
+YouTube: https://www.youtube.com/watch?v=1GO1e3sOi1o
+Dzen: https://dzen.ru/video/watch/66d1668bdba9601de717b131
+VK video: https://vk.com/video873857422_456239030
+RuTube: https://rutube.ru/video/faafab019d5828964b0271031ab253dd/
 
-LESSON 3: https://www.youtube.com/watch?v=daENVQmjzhI
+LESSON 2:
+Rumble: https://rumble.com/v5cy6wq--java-lecture-2.html
+YouTube: https://www.youtube.com/watch?v=GF6DxFrVACY
+Dzen: https://dzen.ru/video/watch/66d16774a6fec84560735a42
+VK video: https://vk.com/video873857422_456239031
+RuTube: https://rutube.ru/video/9b8d62e910780129d3cdf7fca4f5bee1/
+
+LESSON 3:
+Rumble: https://rumble.com/v5cy7vx--java-lecture-3.html
+YouTube: https://www.youtube.com/watch?v=daENVQmjzhI
+Dzen: https://dzen.ru/video/watch/66d169048cf40b67a27cc47a
+VK video: https://vk.com/video873857422_456239032
+RuTube: https://rutube.ru/video/87dbb1b21177ea749d1b6656068f79a6/
