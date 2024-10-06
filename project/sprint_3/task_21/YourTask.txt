@@ -1,3 +1,6 @@
+Ознакомьтесь с записью лекции про дизайн паттерн Inversion of Control (IoC):
+https://www.youtube.com/watch?v=4BFDtPj22EA
+
 Для того чтобы воспользоваться классом DateTimeService в классе
 TravelCalculatePremiumServiceImpl "повесьте" на новый класс
 аннотацию @Component (по аналогии с TravelCalculatePremiumServiceImpl).
