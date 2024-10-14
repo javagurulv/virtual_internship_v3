@@ -24,7 +24,5 @@ PS: не забудьте по окончанию выполнения шага 
 
 #### Доступ к закрытой части курса, поддержка, вопросы и обратная связь по проекту:
 * [Телеграмм группа проекта](https://t.me/+mvRhG9YECTlkZjQ0)
-* [Телеграмм автора курса] (@javagurulv)
-* [Емейл автора курса] (javagurulv@gmail.com)
-
-Линк для донатов: https://destream.net/live/JavaGuruSoftwareDevelopmentCourses/donate
+* [Телеграмм автора курса] (javaguruby)
+* [Емейл автора курса] (itguruby@mail.ru)
