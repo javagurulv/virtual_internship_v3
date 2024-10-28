@@ -30,4 +30,15 @@ subprojects {
 		useJUnitPlatform()
 	}
 
+	clean.doFirst {
+		delete "${projectDir}/logs/"
+		println "${projectDir}/logs/"
+
+		delete "${projectDir}/out/"
+		println "${projectDir}/out/"
+
+		delete "${projectDir}/build/"
+		println "${projectDir}/build/"
+	}
+
 }
