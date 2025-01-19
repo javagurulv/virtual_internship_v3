@@ -1,0 +1,26 @@
+**Контекст задачи (краткое описание) **
+TODO: опишите контекст и задачу своими словами в свободной форме.
+Tasks TODO
+1. To hear lecture "Build Tools"
+2. Enable the Gradle to the project.
+3. Verify that gradle-wrapper.jar and gradle-wrapper.properties are present in the Gradle folder
+4. Configure project settings according to the project conditions (Versions, Build settings, etc.)
+5. Verify that Gradle is enabled and configured for the project, all dependencies are added to the project
+
+
+**Что было сделано и как? (краткое описание)**
+TODO: опишите что и как делали для того, чтобы выполнить задачу.
+
+
+**Зачем это было сделано? Чему научился в процессе выполнения задания?**
+TODO: опиши своими словами зачем было необходимо выполнить это задание,
+опиши какие техники, технологии, инструменты, использовал для выполнения задания,
+чему научился выполняя это задание?
+
+
+**Сколько потратил времени на выполнение задачи?**
+TODO: зафиксируй для себя сколько времени потратил на выполнение этого задания. Можно ли было его сделать быстрее?
+
+
+**Заметки, идеи, предложения в свободной форме**
+TODO: зафиксируй любые свои мысли, эмоции, идеи, размышления связанные с этим заданием.
